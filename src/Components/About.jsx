@@ -1,0 +1,24 @@
+import React from 'react'
+import formal from './formal.png'
+
+const About = () => {
+  return (
+    <div id="about" class="about section" style={{border:"1px solid black"}}>
+        <h1 id="user-detail-name">Neha Phadtare</h1>
+        <img class="home-img" src={formal} alt="image" />
+
+        <p id="user-detail-intro">Self-motivated aspiring full-stack web developer,
+skilled in MERN stack. A quick learner who is passionate
+about developing web applications. Looking forward to
+joining a progressive organization and continuing to
+grow my skillset while contributing to a positive
+outcome.</p>
+
+<a href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link" id="resume-link-2" target={'_blank'}>Resume</a>
+    {/* download as pdf is left */}
+
+    </div>
+  )
+}
+
+export default About
