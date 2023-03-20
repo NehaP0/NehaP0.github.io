@@ -1,10 +1,10 @@
 import React from 'react'
-import Contact from './Contact';
-import Projects from './Projects';
-import About from './About';
-import Skills from './Skills';
-import Resume from './Resume';
-import Github from './Github';
+import Contact from '../Components/Contact';
+import Projects from '../Components/Projects';
+import About from '../Components/About';
+import Skills from '../Components/Skills';
+import Resume from '../Components/Resume';
+import Github from '../Components/Github';
 
 const Home = () => {
   return (
