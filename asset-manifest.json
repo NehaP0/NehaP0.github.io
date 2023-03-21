@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.c6d85611.js",
+    "main.js": "/static/js/main.687ddbbe.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/ClarksUSA.PNG": "/static/media/ClarksUSA.ba02e242fb0957dc072d.PNG",
     "static/media/Expedia.PNG": "/static/media/Expedia.38f6cdc6b0521693bc2c.PNG",
@@ -15,11 +15,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.c6d85611.js.map": "/static/js/main.c6d85611.js.map",
+    "main.687ddbbe.js.map": "/static/js/main.687ddbbe.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.c6d85611.js"
+    "static/js/main.687ddbbe.js"
   ]
 }
