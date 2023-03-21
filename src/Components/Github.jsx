@@ -1,12 +1,31 @@
 import React from 'react'
-import GithubStreak from './GithubStreak.PNG'
+import GithubStreak from './images/GithubStreak.PNG'
 
 const Github = () => {
+
+  
   return (
-    <div>
+    <div class="react-activity-calendar">
         <h1>Github</h1>
-        <img style={{width:"100%"}} id="github-streak-stats" src={GithubStreak} alt="" />
+        {/* <img style={{width:"100%"}} id="github-streak-stats" src={GithubStreak} alt="" /> */}
         {/* check their link */}
+
+        <div id="github-streak-stats">
+          <p>GitHub streak stats</p>
+          <img src="https://streak-stats.demolab.com/?user=NehaP0&theme=radical" alt="img" />
+        </div>
+
+        <div id="github-top-langs">
+          <p>GitHub top languages</p>
+          {/* Not done yet */}
+        </div>
+
+        <div id="github-stats-card">
+          <p>GitHub stats</p>
+          <img src="https://github-readme-stats.vercel.app/api?username=NehaP0&show_icons=true&theme=radical" alt="img" />
+        </div>
+
+
     </div>
   )
 }

@@ -1,12 +1,12 @@
 import React from 'react'
-import css from './css.jpg'
-import express from './express.jpg'
-import github from './github.jpg'
-import html from './html.jpg'
-import JavaScript from './JavaScript.jpg'
-import mongodb from './mongodb.jpg'
-import nodeJs from './nodeJs.jpg'
-import react from './react.jpg'
+import css from './images/css.jpg'
+import express from './images/express.jpg'
+import github from './images/github.jpg'
+import html from './images/html.jpg'
+import JavaScript from './images/JavaScript.jpg'
+import mongodb from './images/mongodb.jpg'
+import nodeJs from './images/nodeJs.jpg'
+import react from './images/react.jpg'
 
 const Skills = () => {
   return (

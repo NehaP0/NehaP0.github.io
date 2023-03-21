@@ -1,5 +1,5 @@
 import React from 'react'
-import formal from './formal.png'
+import formal from './images/formal.png'
 
 const About = () => {
   return (

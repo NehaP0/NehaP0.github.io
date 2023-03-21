@@ -1,6 +1,6 @@
 import React from 'react'
-import Expedia from './Expedia.PNG'
-import ClarksUSA from './ClarksUSA.PNG'
+import Expedia from './images/Expedia.PNG'
+import ClarksUSA from './images/ClarksUSA.PNG'
 
 const Projects = () => {
   return (
