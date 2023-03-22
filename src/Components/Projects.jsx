@@ -44,7 +44,7 @@ const Projects = () => {
                 <a class="project-github-link" href="" target={'_blank'} ></a><br/>
                 <a class="project-deployed-link" href="" target={'_blank'}></a>
             </div> */}
-            <hr />
+            {/* <hr /> */}
     </div>
   )
 }
