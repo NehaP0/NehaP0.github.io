@@ -5,12 +5,14 @@ const Github = () => {
 
   
   return (
-    <div class="react-activity-calendar">
-        <h1>Github</h1>
-        {/* <img style={{width:"100%"}} id="github-streak-stats" src={GithubStreak} alt="" /> */}
+    <div>
+        <div class="react-activity-calendar">
+            <h1>Github</h1>
+            {/* <img style={{width:"100%"}} id="github-streak-stats" src={GithubStreak} alt="" /> */}
+        </div>
         {/* check their link */}
 
-        <div id="github-streak-stats">
+        <div id="github-streak-stats" >
           <p>GitHub streak stats</p>
           <img src="https://streak-stats.demolab.com/?user=NehaP0&theme=radical" alt="img" />
         </div>
@@ -26,6 +28,7 @@ const Github = () => {
         </div>
 
 
+    
     </div>
   )
 }
