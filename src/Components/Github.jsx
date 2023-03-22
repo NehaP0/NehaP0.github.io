@@ -20,6 +20,7 @@ const Github = () => {
         {/* <p>GitHub top languages</p> */}
         <div id="github-top-langs">
           <img src="" alt="img" />
+          
           {/* Not done yet */}
         </div>
 
