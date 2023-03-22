@@ -5,7 +5,7 @@ const Github = () => {
 
   
   return (
-    <div>
+    <div id='github'>
         <div class="react-activity-calendar">
             <h1>Github</h1>
             {/* <img style={{width:"100%"}} id="github-streak-stats" src={GithubStreak} alt="" /> */}
