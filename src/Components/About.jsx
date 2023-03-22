@@ -4,7 +4,8 @@ import formal from './images/formal.png'
 const About = () => {
   return (
     <div id="about" class="about section" style={{border:"1px solid black"}}>
-        <h1 id="user-detail-name">Neha Phadtare</h1>
+        <h1>About</h1>
+        <h2 id="user-detail-name">Neha Phadtare</h2>
         <img class="home-img" src={formal} alt="image" />
 
         <p id="user-detail-intro">Self-motivated aspiring full-stack web developer,
