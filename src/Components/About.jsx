@@ -16,7 +16,8 @@ joining a progressive organization and continuing to
 grow my skillset while contributing to a positive
 outcome.</p>
 
-<button id="resume-button-2" ><Link to='https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link'  target={'_blank'}>Resume</Link></button>
+<a id="resume-button-2" href="./MyResume.pdf" download>Resume</a>
+{/* <Link to='https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link'  target={'_blank'}></Link> */}
 
     {/* download as pdf is left */}
 
