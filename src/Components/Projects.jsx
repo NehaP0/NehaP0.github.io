@@ -38,7 +38,7 @@ const Projects = () => {
             {/* <hr /> */}
             <div class="project-card">
                 <h3 class="project-title"></h3>
-                {/* <img style={{width:"100%"}} src='' alt="Expedia" />             */}
+                <img />            
                 <p class="project-description"></p>
                 <p class="project-tech-stack"></p>
                 <a class="project-github-link" href="" target={'_blank'} ></a><br/>
