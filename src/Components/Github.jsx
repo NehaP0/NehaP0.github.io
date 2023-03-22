@@ -13,14 +13,14 @@ const Github = () => {
         {/* check their link */}
         {/* <p>GitHub streak stats</p> */}
 
-        <div >          
-          <img id="github-streak-stats"  src="https://streak-stats.demolab.com/?user=NehaP0&theme=radical" alt="img" />
+        <div>          
+          <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=NehaP0&theme=radical" alt="img" />
         </div>
 
         {/* <p>GitHub top languages</p> */}
         <div>
-          <img  id="github-top-langs" src="" alt="img" />
-          {/* Not done yet */}
+          <img  id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NehaP0" alt="img" />
+          
         </div>
 
         <p>GitHub stats</p>
