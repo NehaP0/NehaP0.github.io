@@ -10,7 +10,7 @@ const About = () => {
 
         <p id="user-detail-intro">Self-motivated aspiring full-stack web developer,
 skilled in MERN stack. A quick learner who is passionate
-about developing web applications. Looking forward to
+about developing web applications and in proficient in React, Express, Mongodb and NodeJS. Looking forward to
 joining a progressive organization and continuing to
 grow my skillset while contributing to a positive
 outcome.</p>
