@@ -14,7 +14,7 @@ joining a progressive organization and continuing to
 grow my skillset while contributing to a positive
 outcome.</p>
 
-<a href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link" id="resume-link-2" target={'_blank'}>Resume</a>
+<a href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link" id="resume-button-2" target={'_blank'}>Resume</a>
     {/* download as pdf is left */}
 
     </div>
