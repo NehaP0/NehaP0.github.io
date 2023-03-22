@@ -35,16 +35,16 @@ const Projects = () => {
                 <a class="project-deployed-link" href="https://meek-sprite-0d4ca5.netlify.app" target={'_blank'}>Deployed Link</a>
             </div>
 
-            {/* <hr /> */}
-            {/* <div class="project-card">
-                <h3 class="project-title"></h3>
-                <img />            
-                <p class="project-description"></p>
-                <p class="project-tech-stack"></p>
-                <a class="project-github-link" href="" target={'_blank'} ></a><br/>
-                <a class="project-deployed-link" href="" target={'_blank'}></a>
-            </div> */}
-            {/* <hr /> */}
+            <hr />
+            <div class="project-card">
+                <h3 class="project-title">Paridhan</h3>
+                <img style={{width:"100%"}} src={Paridhan} alt="Paridhan" />            
+                <p class="project-description">This is a clone of myntra, which is an ecommerce website which specialises in selling clothes.</p>
+                <p class="project-tech-stack">Tech stack used: React | CSS | Chakra UI</p>
+                <a class="project-github-link" href="https://github.com/NehaP0/spotty-middle-5296" target={'_blank'} >Github</a><br/>
+                <a class="project-deployed-link" href="https://meek-sprite-0d4ca5.netlify.app" target={'_blank'}>Deployed Link</a>
+            </div>
+            <hr />
     </div>
   )
 }

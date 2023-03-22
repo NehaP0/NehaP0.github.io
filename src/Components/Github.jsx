@@ -19,7 +19,7 @@ const Github = () => {
 
         {/* <p>GitHub top languages</p> */}
         <div>
-          <img  id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NehaP0" alt="img" />
+          <img  id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NehaP0&theme=radical" alt="img" />
           
         </div>
 
