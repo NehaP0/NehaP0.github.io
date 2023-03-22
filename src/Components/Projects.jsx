@@ -36,14 +36,14 @@ const Projects = () => {
             </div>
 
             {/* <hr /> */}
-            <div class="project-card">
+            {/* <div class="project-card">
                 <h3 class="project-title"></h3>
                 <img />            
                 <p class="project-description"></p>
                 <p class="project-tech-stack"></p>
                 <a class="project-github-link" href="" target={'_blank'} ></a><br/>
                 <a class="project-deployed-link" href="" target={'_blank'}></a>
-            </div>
+            </div> */}
             <hr />
     </div>
   )
