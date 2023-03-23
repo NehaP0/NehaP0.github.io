@@ -6,18 +6,12 @@ import {Link} from 'react-router-dom'
 
 const Resume = () => {
 
-  const HandleClick = ()=>{
-    var mylinks = ['https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link', "https://drive.google.com/uc?export=download&id=1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir"]
-
-    for(let i=0; i<2; i++){
-      window.open(mylinks[i])
-    }
-  }
+  
 
   return (
     // id='resume' is given by me
     <div id='resume'> 
-      <button id="resume-button-1" onClick={HandleClick}>Resume</button>
+      
       {/* <Link to='https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link'  target={'_blank'} href="../Resume/Neha-Phadtare-Resume.pdf" download></Link> */}
     {/* <a href = "https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link" target = "_blank">bro</a> */}
     {/* download as pdf is left */}
