@@ -19,8 +19,12 @@ const Navbar = () => {
      <a href="#skills"  class="nav-link skills">Skills</a>
      <a href="#projects" class="nav-link projects">Projects</a>
      <a href="#contact" class="nav-link contact">Contact</a>
-     <a href="#resume"  class="nav-link resume">Resume</a>
-     <button id="resume-button-1" onClick={HandleClick}>Resume</button>
+     <a href="#resume"  class="nav-link resume"></a>
+     
+     <div id = "resume">
+        <button id="resume-button-1" onClick={HandleClick}>Resume</button>
+     </div>
+     
     </div>
   )
 }

@@ -8,9 +8,9 @@ const Resume = () => {
 
   
 
-  return (
+  // return (
     // id='resume' is given by me
-    <div id='resume'> 
+    // <div id='resume'> 
       
       {/* <Link to='https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link'  target={'_blank'} href="../Resume/Neha-Phadtare-Resume.pdf" download></Link> */}
     {/* <a href = "https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link" target = "_blank">bro</a> */}
@@ -25,8 +25,8 @@ const Resume = () => {
     {/* <a id="resume-button-1" href="./MyResume.pdf" download >Resume</a>  */}
  
    
-    </div>
-  )
+    // </div>
+  // )
 }
 
 export default Resume
