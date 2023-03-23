@@ -1,33 +1,21 @@
 import React from 'react'
-import Contact from '../Components/Contact';
-import Projects from '../Components/Projects';
-import About from '../Components/About';
-import Skills from '../Components/Skills';
-import Resume from '../Components/Resume';
-import Github from '../Components/Github';
+
 
 const Home = () => {
 
-  const HandleClick = ()=>{
-    var mylinks = ['https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link', "https://drive.google.com/uc?export=download&id=1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir"]
-
-    for(let i=0; i<2; i++){
-      window.open(mylinks[i])
-    }
-  }
 
   return (
-    <div  id="home" style={{border:"1px solid black"}}>
-        <h3>Home</h3>
-        <button id="resume-button-2" onClick={HandleClick}>Resume</button>
-        <About />        
-        <Contact  />
-        <Resume />
-        <Projects />
-        <Skills />
-        <Github />
-
-        
+    <div  id="home" >
+        {/* <div> */}
+          <h2 style={{display:"inline"}}>Hi,</h2>
+          <img id="hi" src="https://media.tenor.com/SNL9_xhZl9oAAAAj/waving-hand-joypixels.gif" alt="hi" />
+          <br />
+          <h3 style={{display:"inline"}}>I'm a </h3>
+          <h2 style={{display:"inline"}}>MERN Stack Developer</h2>
+         {/* </div>
+        <div>
+           <img id="typing" src="https://i.giphy.com/media/26AHONQ79FdWZhAI0/giphy.webp" alt="typing" /> */}
+        {/* </div>  */} 
     </div>
   )
 }

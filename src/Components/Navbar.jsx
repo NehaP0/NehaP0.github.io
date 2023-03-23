@@ -13,7 +13,7 @@ const Navbar = () => {
   }
 
   return (
-    <div id="nav-menu" style={{border:"1px solid black", display:"flex", justifyContent:"space-evenly", position: "fixed"}} >
+    <div id="nav-menu">
       <a href="#home"  class="nav-link home">Home</a>
      <a href="#about" class="nav-link about">About</a>
      <a href="#skills"  class="nav-link skills">Skills</a>
@@ -22,7 +22,7 @@ const Navbar = () => {
      <a href="#resume"  class="nav-link resume" />
      
      <div id = "resume">
-        <button id="resume-button-1" onClick={HandleClick}>Resume</button>
+        <button id="resume-button-1" onClick={HandleClick}>My Resume</button>
      </div>
      
     </div>
