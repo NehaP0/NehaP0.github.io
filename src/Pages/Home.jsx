@@ -21,7 +21,7 @@ const Home = () => {
         <h3>Home</h3>
         <button id="resume-button-2" onClick={HandleClick}>Resume</button>
         <About />        
-        <Contact />
+        <Contact  />
         <Resume />
         <Projects />
         <Skills />
