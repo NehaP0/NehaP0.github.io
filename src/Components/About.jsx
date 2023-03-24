@@ -15,9 +15,10 @@ const About = () => {
   // }
 
   const HandleClick = ()=>{
-   
+    
+    <a href={Neha} download/>
 
-      window.open('https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link')
+      // window.open('https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link')
     
   }
 
@@ -31,7 +32,9 @@ const About = () => {
           <p id="user-detail-intro">I am a self-motivated aspiring Full-stack web developer. A quick learner who is passionate about developing web applications. I am proficient in React, Express,
             MongoDB, NodeJS, HTML, CSS and JavaScript.</p>  
           {/* <button id="resume-button-2" onClick={HandleClick}>My Resume</button> */}
-          <a href={Neha} download> <button id="resume-button-2" onClick={HandleClick}>My Resume</button> </a>
+          {/* <a href={Neha} download> <button id="resume-button-2" onClick={HandleClick}>My Resume</button> </a> */}
+          {/* <button onClick={HandleClick}><a href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link"></a> </button> */}
+        <a id="resume-button-2" href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link">Resume</a>
        </div>
       <div> 
         <img class="home-img" src={formal} alt="image" />
