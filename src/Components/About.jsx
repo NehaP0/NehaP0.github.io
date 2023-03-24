@@ -1,16 +1,24 @@
 import React from 'react'
 import formal from './images/formal.png'
 // import {Link} from 'react-router-dom'
+import Neha from "./Neha.pdf"
 
 const About = () => {
   
-  const HandleClick = ()=>{
-    var mylinks = ['https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link', 
-    "https://drive.google.com/uc?export=download&id=1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir"]
+  // const HandleClick = ()=>{
+  //   var mylinks = ['https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link', 
+  //   "https://drive.google.com/uc?export=download&id=1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir"]
 
-    for(let i=0; i<2; i++){
-      window.open(mylinks[i])
-    }
+  //   for(let i=0; i<2; i++){
+  //     window.open(mylinks[i])
+  //   }
+  // }
+
+  const HandleClick = ()=>{
+   
+
+      window.open('https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link')
+    
   }
 
   
@@ -22,7 +30,8 @@ const About = () => {
           <h2 id="user-detail-name">I am Neha Phadtare</h2>
           <p id="user-detail-intro">I am a self-motivated aspiring Full-stack web developer. A quick learner who is passionate about developing web applications. I am proficient in React, Express,
             MongoDB, NodeJS, HTML, CSS and JavaScript.</p>  
-          <button id="resume-button-2" onClick={HandleClick}>My Resume</button>
+          {/* <button id="resume-button-2" onClick={HandleClick}>My Resume</button> */}
+          <a href={Neha} download> <button id="resume-button-2" onClick={HandleClick}>My Resume</button> </a>
        </div>
       <div> 
         <img class="home-img" src={formal} alt="image" />
