@@ -4,6 +4,8 @@
 
 
 .App { 
+    padding-left: 0px;
+    margin-left: 0px;
   background-color:#141321 ;  
   width:100%;
   /* color: #EC407A; */
@@ -52,21 +54,25 @@ button:hover{
   border-radius: 10px 15px;
 }
 #home{
-  /* display: flex; */
+  display: flex;
+  justify-content: space-evenly;
   padding-top: 100px ;
-  padding-bottom: 90px ;
-  justify-content: center;
+  padding-bottom: 90px ;  
   align-items: center;
-  height: 200px;
-  
+  height: 200px;  
 }
-/* #typing{
-    height: 100px;
-    width: 200px
-} */
 #hi{
     height:40px;
     width: 40px;
+}
+#home #working{
+   height: 100px;
+   width: 200px
+} 
+#home #working img{
+   height:200%;
+   width:100%;
+   border-radius: 100px;
 }
 
 #about{
@@ -178,7 +184,7 @@ button:hover{
     width: 100%;
     display: block;
 }
-#github img{
+#github img, #github .react-activity-calendar{
     height:100%;
     width: 100%;
     
