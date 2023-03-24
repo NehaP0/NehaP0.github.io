@@ -30,11 +30,12 @@ const About = () => {
           <h3>About me</h3>
           <h2 id="user-detail-name">I am Neha Phadtare</h2>
           <p id="user-detail-intro">I am a self-motivated aspiring Full-stack web developer. A quick learner who is passionate about developing web applications. I am proficient in React, Express,
-            MongoDB, NodeJS, HTML, CSS and JavaScript.</p>  
+            MongoDB, NodeJS, HTML, CSS and JavaScript.</p> 
+
           {/* <button id="resume-button-2" onClick={HandleClick}>My Resume</button> */}
           {/* <a href={Neha} download> <button id="resume-button-2" onClick={HandleClick}>My Resume</button> </a> */}
-          {/* <button onClick={HandleClick}><a href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link"></a> </button> */}
-        <a id="resume-button-2" href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link">Resume</a>
+          <button onClick={HandleClick}><a href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link">Resume</a> </button>
+        {/* <a id="resume-button-2" href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link">Resume</a> */}
        </div>
       <div> 
         <img class="home-img" src={formal} alt="image" />
