@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.25e8a55e.css",
-    "main.js": "/static/js/main.d5eea856.js",
+    "main.js": "/static/js/main.f370869c.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/working.gif": "/static/media/working.83dca235c19460b6ebab.gif",
     "static/media/ContactGif.gif": "/static/media/ContactGif.65feb17b3b2dde135214.gif",
     "static/media/ClarksUSA.PNG": "/static/media/ClarksUSA.ba02e242fb0957dc072d.PNG",
     "static/media/Paridhan.PNG": "/static/media/Paridhan.6ec7568136d8428c48c6.PNG",
     "static/media/Expedia.PNG": "/static/media/Expedia.38f6cdc6b0521693bc2c.PNG",
-    "static/media/Neha.pdf": "/static/media/Neha.e182e835466cbb7777ae.pdf",
+    "static/media/Neha_Phadtare_Resume.pdf": "/static/media/Neha_Phadtare_Resume.e182e835466cbb7777ae.pdf",
     "static/media/formal.png": "/static/media/formal.d98bcc68f734adcde33e.png",
     "static/media/react.jpg": "/static/media/react.0a2b9ad0023d46f7980c.jpg",
     "static/media/JavaScript.jpg": "/static/media/JavaScript.66618eb6d34f1fcdfa32.jpg",
@@ -20,11 +20,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.25e8a55e.css.map": "/static/css/main.25e8a55e.css.map",
-    "main.d5eea856.js.map": "/static/js/main.d5eea856.js.map",
+    "main.f370869c.js.map": "/static/js/main.f370869c.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25e8a55e.css",
-    "static/js/main.d5eea856.js"
+    "static/js/main.f370869c.js"
   ]
 }
