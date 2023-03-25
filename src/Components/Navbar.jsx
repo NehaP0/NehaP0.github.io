@@ -1,5 +1,5 @@
 import React from 'react'
-import Neha from "./Neha.pdf"
+import Neha_Phadtare_Resume from "./Neha_Phadtare_Resume.pdf"
 
 
 const Navbar = () => {
@@ -12,6 +12,14 @@ const Navbar = () => {
   //     window.open(mylinks[i])
   //   }
   // }
+
+  const HandleClick = ()=>{
+    
+      
+  
+    window.open('https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link')
+  
+}
 
   return (
     <div id="nav-menu">
@@ -26,7 +34,8 @@ const Navbar = () => {
         <button id="resume-button-1" onClick={HandleClick}>My Resume</button>
      </div> */}
 
-<button id="resume-button-1"><a id="resume-link-1" href={Neha} download>My resume</a></button>
+{/* <button id="resume-button-1"><a id="resume-link-1" href={Neha_Phadtare_Resume} download>My resume</a></button> */}
+<button id="resume-button-1" onClick={HandleClick}><a id="resume-link-1" href={Neha_Phadtare_Resume} download>My resume</a></button>
 
 
      
