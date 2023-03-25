@@ -14,13 +14,13 @@ const About = () => {
   //   }
   // }
 
-  const HandleClick = ()=>{
+  // const HandleClick = ()=>{
     
-    <a href={Neha} download/>
+  //   <a href={Neha} download/>
 
       // window.open('https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link')
     
-  }
+  // }
 
   
 
@@ -34,8 +34,9 @@ const About = () => {
 
           {/* <button id="resume-button-2" onClick={HandleClick}>My Resume</button> */}
           {/* <a href={Neha} download> <button id="resume-button-2" onClick={HandleClick}>My Resume</button> </a> */}
-          <button onClick={HandleClick}><a href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link">Resume</a> </button>
+          {/* <button onClick={HandleClick}><a href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link">Resume</a> </button> */}
         {/* <a id="resume-button-2" href="https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link">Resume</a> */}
+        <button id="resume-button-2"><a id="resume-link-2" href={Neha} download>My resume</a></button>
        </div>
       <div> 
         <img class="home-img" src={formal} alt="image" />
