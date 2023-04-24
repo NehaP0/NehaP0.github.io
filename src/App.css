@@ -118,7 +118,7 @@ button:hover {
 #about img {
     width: 300px;
     height: 300px;
-    margin-top: 50px;
+    margin-top: 150px;
     border-radius: 50px;
     margin-left: 80px;
 }
@@ -154,7 +154,7 @@ button:hover {
 }
 
 .project-card {
-    width: 50%;
+    width: 40%;
     height: 650px;
     border-radius: 50px;
     margin: 10px;
