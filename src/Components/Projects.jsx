@@ -23,6 +23,7 @@ const Projects = () => {
                 <div class="projectLink"> 
                     <a class="project-github-link" href="https://github.com/NehaP0/spotty-middle-5296" target={'_blank'} >Github</a><br/>
                     <a class="project-deployed-link" href="https://dapper-syrniki-3ec5c0.netlify.app/" target={'_blank'}>Live</a>
+                
                 </div>
             </div>
 
