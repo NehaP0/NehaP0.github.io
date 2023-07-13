@@ -22,8 +22,8 @@ function App() {
       <About />        
       <Skills />
       <Projects />
-      <Contact  />
       <Github />
+      <Contact  />
       <Resume />
 
       

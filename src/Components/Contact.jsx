@@ -5,6 +5,7 @@ import linkdinIcon from './images/linkdinIcon.jpg'
 import mailIcon from './images/mailIcon.jpg'
 import ContactGif from './images/ContactGif.gif'
 
+
 const Contact = () => {
   return (
     <div id="contact">

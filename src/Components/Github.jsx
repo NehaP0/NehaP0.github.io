@@ -5,12 +5,12 @@ const Github = () => {
 
   
   return (
-    <div id='github'>
-        <div class="react-activity-calendar">
+    <div id='github' >
             <h3>Github</h3>
-            <GitHubCalendar username="NehaP0" />
+        <div class="react-activity-calendar">
+            <GitHubCalendar username="NehaP0"/>
         </div>
-
+      <div id="makeitflex">
         <div>
                  
           <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=NehaP0&theme=radical" alt="img" />
@@ -25,6 +25,8 @@ const Github = () => {
         
         <div>          
           <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=NehaP0&show_icons=true&theme=radical" alt="img" />
+        </div>
+
         </div>
 
 

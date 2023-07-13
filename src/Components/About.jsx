@@ -20,7 +20,7 @@ const About = () => {
           MongoDB, NodeJS, HTML, CSS and JavaScript.</p>
         <button id="resume-button-2" onClick={HandleClick}><a id="resume-link-2" href={Neha_Phadtare_Resume} download>My resume</a></button>
       </div>
-      <div>
+      <div id="imgdiv">
         <img class="home-img" src={formal} alt="image" />
       </div>
 
