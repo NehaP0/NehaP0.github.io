@@ -15,7 +15,7 @@ const Contact = () => {
                 <p> <a id="contact-github" href='https://github.com/NehaP0' target={'_blank'} rel="noreferrer"><img src={githubIcon} alt="img"/>Github</a> </p>
                 <p> <a id="contact-linkedin" href='https://www.linkedin.com/in/neha-phadtare/' target={'_blank'} rel="noreferrer"><img src={linkdinIcon} alt="img"/>LinkedIn</a> </p>
                 <p id="contact-phone"><img src={phoneIcon} alt="img"/>9359412215</p>
-                <p id="contact-email"><img src={mailIcon} alt="img"/>nehaphadtare334@gmail.com</p>
+                <p id="contact-email"><img src={mailIcon} alt="img"/>nehaphadtare443@gmail.com</p>
             </div>
             <div>
               <img src={ContactGif} alt="contact" id="contactGif"/>
