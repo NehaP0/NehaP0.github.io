@@ -12,23 +12,17 @@ const Skills = () => {
   return (
     <div id="skills">
         <h3>Skills</h3>
-        
-            <div>
-                <div class= "skills-card"><img src={react} alt="img" class="skills-card-img" /><h4 class="skills-card-name">React</h4></div>
-                <div class= "skills-card"><img src={express} alt="img" class="skills-card-img" /><h4 class="skills-card-name">Express</h4></div>
-                <div class= "skills-card"><img src={mongodb} alt="img" class="skills-card-img" /><h4 class="skills-card-name">Mongodb</h4></div>
-            </div>
-            <div>
-                <div class= "skills-card"><img src={nodeJs} alt="img" class="skills-card-img" /><h4 class="skills-card-name">nodeJS</h4></div>
-                <div class= "skills-card"><img src={JavaScript} alt="img" class="skills-card-img" /><h4 class="skills-card-name">JavaScript</h4></div>
-                <div class= "skills-card"><img src={html} alt="img" class="skills-card-img" /><h4 class="skills-card-name">HTML</h4></div>
-            </div>
-            <div>
-                <div class= "skills-card"><img src={css} alt="img" class="skills-card-img" /><h4 class="skills-card-name">CSS</h4></div>
-                <div class= "skills-card"><img src={github} alt="img" class="skills-card-img" /><h4 class="skills-card-name">GitHub</h4></div>
-            </div>
-        </div>        
-   
+        <div>
+            <div className="skills-card"><img src={react} alt="img" className="skills-card-img" /><h4 className="skills-card-name">React</h4></div>
+            <div className="skills-card"><img src={express} alt="img" className="skills-card-img" /><h4 className="skills-card-name">Express</h4></div>
+            <div className="skills-card"><img src={mongodb} alt="img" className="skills-card-img" /><h4 className="skills-card-name">Mongodb</h4></div>
+            <div className="skills-card"><img src={nodeJs} alt="img" className="skills-card-img" /><h4 className="skills-card-name">nodeJS</h4></div>
+            <div className="skills-card"><img src={JavaScript} alt="img" className="skills-card-img" /><h4 className="skills-card-name">JavaScript</h4></div>
+            <div className="skills-card"><img src={html} alt="img" className="skills-card-img" /><h4 className="skills-card-name">HTML</h4></div>
+            <div className="skills-card"><img src={css} alt="img" className="skills-card-img" /><h4 className="skills-card-name">CSS</h4></div>
+            <div className="skills-card"><img src={github} alt="img" className="skills-card-img" /><h4 className="skills-card-name">GitHub</h4></div>
+        </div>
+    </div>        
   )
 }
 

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
@@ -9,14 +8,9 @@ import Skills from './Components/Skills';
 import Resume from './Components/Resume';
 import Github from './Components/Github';
 
-
-
 function App() {
-
-  
-
   return (
-    <div className="App" style={{width:"80%", margin: "auto"}}>
+    <div className="App">
       <Navbar />      
       <Home />
       <About />        
@@ -25,8 +19,6 @@ function App() {
       <Github />
       <Contact  />
       <Resume />
-
-      
     </div>
   );
 }

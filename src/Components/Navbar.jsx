@@ -5,59 +5,50 @@ import {
   Menu,
   MenuButton,
   MenuList,
-  MenuItem,
   IconButton,
- 
 } from '@chakra-ui/react'
 
 import {
   HamburgerIcon,
-  AddIcon,
-  ExternalLinkIcon,
-  RepeatIcon,
-  EditIcon
 } from '@chakra-ui/icons'
-
-
 
 const Navbar = () => {
   const HandleClick = () => {
-    window.open('https://drive.google.com/file/d/1DmwDd8Pjxf10tOUOrrivF9y5xZ7Egtir/view?usp=share_link')
+    window.open('https://drive.google.com/file/d/13S6MaJKISu7j1u3PdpWgaSp8Ao54QrkZ/view?usp=drive_link')
   }
 
   return (
-    <div >
+    <div>
       <div id="nav-menu">
         <a href="#home" id="myname">Neha Phadtare</a>
-        <a href="#home" class="nav-link home">Home</a>
-        <a href="#about" class="nav-link about">About</a>
-        <a href="#skills" class="nav-link skills">Skills</a>
-        <a href="#projects" class="nav-link projects">Projects</a>
-        <a href="#contact" class="nav-link contact">Contact</a>
-        <a href="#resume" class="nav-link resume" />
-        <button id="resume-button-1" onClick={HandleClick}><a id="resume-link-1" href={Neha_Phadtare_Resume} download>My resume</a></button>
+        <a href="#home" className="nav-link home">Home</a>
+        <a href="#about" className="nav-link about">About</a>
+        <a href="#skills" className="nav-link skills">Skills</a>
+        <a href="#projects" className="nav-link projects">Projects</a>
+        <a href="#contact" className="nav-link contact">Contact</a>
+        <a href="#resume" className="nav-link resume" style={{display: 'none'}}>Resume</a>
+        <button id="resume-button-1" onClick={HandleClick}>
+          <a id="resume-link-1" href={Neha_Phadtare_Resume} download>My resume</a>
+        </button>
       </div>
     
       {/* --------- */}
       
-      
       <div id="small-nav">
           <Menu>
-              <MenuButton as={IconButton} aria-label='Options' icon={<HamburgerIcon />} variant='outline'/>
-              <MenuList>
-                  <a style={{display:"block"}} href="#home">Home</a>
-                  <a style={{display:"block"}} href="#about">About</a>
-                  <a style={{display:"block"}} href="#skills">Skills</a>
-                  <a style={{display:"block"}} href="#projects">Projects</a>
-                  <a style={{display:"block"}} href="#contact">Contact</a>
-                  <a href={Neha_Phadtare_Resume} download  onClick={HandleClick}>My resume</a>
+              <MenuButton as={IconButton} aria-label='Options' icon={<HamburgerIcon />} variant='outline' color="#ec407a" borderColor="rgba(236, 64, 122, 0.4)" _hover={{ bg: "rgba(236, 64, 122, 0.2)" }} />
+              <MenuList bg="#141321" borderColor="rgba(255, 255, 255, 0.15)" p="10px">
+                  <a style={{display:"block", padding: "8px 12px", color: "#ffffff"}} href="#home">Home</a>
+                  <a style={{display:"block", padding: "8px 12px", color: "#ffffff"}} href="#about">About</a>
+                  <a style={{display:"block", padding: "8px 12px", color: "#ffffff"}} href="#skills">Skills</a>
+                  <a style={{display:"block", padding: "8px 12px", color: "#ffffff"}} href="#projects">Projects</a>
+                  <a style={{display:"block", padding: "8px 12px", color: "#ffffff"}} href="#contact">Contact</a>
+                  <a style={{display:"block", padding: "8px 12px", color: "#ec407a", fontWeight: "bold"}} href={Neha_Phadtare_Resume} download onClick={HandleClick}>My resume</a>
               </MenuList>
           </Menu>          
           <a href="#home" id="mynamesmall">Neha Phadtare</a>
       </div>
       
-      
-    
       {/* --------- */}
     </div>
   )
