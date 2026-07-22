@@ -5,7 +5,7 @@ import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 import About from './Components/About';
 import Skills from './Components/Skills';
-import Resume from './Components/Resume';
+import Experience from './Components/Experience';
 import Github from './Components/Github';
 
 function App() {
@@ -13,12 +13,12 @@ function App() {
     <div className="App">
       <Navbar />      
       <Home />
-      <About />        
+      <About /> 
+      <Experience />
       <Skills />
       <Projects />
       <Github />
       <Contact  />
-      <Resume />
     </div>
   );
 }

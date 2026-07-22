@@ -24,9 +24,9 @@ const Navbar = () => {
         <a href="#home" className="nav-link home">Home</a>
         <a href="#about" className="nav-link about">About</a>
         <a href="#skills" className="nav-link skills">Skills</a>
+        <a href="#experience" className="nav-link experience">Experience</a>
         <a href="#projects" className="nav-link projects">Projects</a>
         <a href="#contact" className="nav-link contact">Contact</a>
-        <a href="#resume" className="nav-link resume" style={{display: 'none'}}>Resume</a>
         <button id="resume-button-1" onClick={HandleClick}>
           <a id="resume-link-1" href={Neha_Phadtare_Resume} download>My resume</a>
         </button>
@@ -41,6 +41,7 @@ const Navbar = () => {
                   <a style={{display:"block", padding: "8px 12px", color: "#ffffff"}} href="#home">Home</a>
                   <a style={{display:"block", padding: "8px 12px", color: "#ffffff"}} href="#about">About</a>
                   <a style={{display:"block", padding: "8px 12px", color: "#ffffff"}} href="#skills">Skills</a>
+                  <a style={{display:"block", padding: "8px 12px", color: "#ffffff"}} href="#experience">Experience</a>
                   <a style={{display:"block", padding: "8px 12px", color: "#ffffff"}} href="#projects">Projects</a>
                   <a style={{display:"block", padding: "8px 12px", color: "#ffffff"}} href="#contact">Contact</a>
                   <a style={{display:"block", padding: "8px 12px", color: "#ec407a", fontWeight: "bold"}} href={Neha_Phadtare_Resume} download onClick={HandleClick}>My resume</a>
