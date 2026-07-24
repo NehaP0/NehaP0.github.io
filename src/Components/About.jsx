@@ -5,7 +5,7 @@ import Neha_Phadtare_Resume from "./Neha_Phadtare_Resume.pdf"
 const About = () => {
 
   const HandleClick = () => {
-    window.open('https://drive.google.com/file/d/13S6MaJKISu7j1u3PdpWgaSp8Ao54QrkZ/view?usp=drive_link')
+    window.open('https://drive.google.com/file/d/1OURQuAotVpTnvXuPyHa4owgYe4kG0X4K/view?usp=drive_link')
   }
 
   return (

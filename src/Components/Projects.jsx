@@ -33,7 +33,7 @@ const Projects = () => {
                     </div>
                     <div className="projectLink">
                         <a className="project-github-link" href="https://github.com/NehaP0/spotty-middle-5296" target={'_blank'} rel="noreferrer">Github</a>
-                        <a className="project-deployed-link" href="https://dapper-syrniki-3ec5c0.netlify.app/" target={'_blank'} rel="noreferrer">Live</a>
+                        <a className="project-deployed-link" href="https://paridhan-myntra-clone-pi.vercel.app/" target={'_blank'} rel="noreferrer">Live</a>
                     </div>
                 </div>
 
@@ -49,7 +49,7 @@ const Projects = () => {
                     </div>
                     <div className="projectLink">
                         <a className="project-github-link" href="https://github.com/NehaP0/motionless-basket-393" target={'_blank'} rel="noreferrer">Github</a>
-                        <a className="project-deployed-link" href="https://motionless-basket-393.vercel.app/" target={'_blank'} rel="noreferrer">Live</a>
+                        <a className="project-deployed-link" href="https://motionless-basket-393-89y2.vercel.app/" target={'_blank'} rel="noreferrer">Live</a>
                     </div>
                 </div>
 
