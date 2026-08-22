@@ -3,7 +3,7 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
-      role: "Associate Software Developer",
+      role: "Software Engineer",
       company: "Clodura.ai",
       location: "Pune, India",
       duration: "12/2023 – 07/2026",
