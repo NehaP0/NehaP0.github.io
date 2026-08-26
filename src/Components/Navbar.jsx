@@ -14,7 +14,7 @@ import {
 
 const Navbar = () => {
   const HandleClick = () => {
-    window.open('https://drive.google.com/file/d/1OURQuAotVpTnvXuPyHa4owgYe4kG0X4K/view?usp=drive_link')
+    window.open('https://drive.google.com/file/d/1SWkEiRbySTcDH1MwmHGU_aLvtbicy67-/view?usp=sharing')
   }
 
   return (

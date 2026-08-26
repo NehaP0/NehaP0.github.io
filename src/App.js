@@ -6,7 +6,6 @@ import Projects from './Components/Projects';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Experience from './Components/Experience';
-import Github from './Components/Github';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <Experience />
       <Skills />
       <Projects />
-      <Github />
       <Contact  />
     </div>
   );
