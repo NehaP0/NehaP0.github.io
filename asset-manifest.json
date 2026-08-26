@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.50125c76.css",
-    "main.js": "/static/js/main.789521a0.js",
+    "main.css": "/static/css/main.88747ab9.css",
+    "main.js": "/static/js/main.b6f5dbcf.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/working.gif": "/static/media/working.83dca235c19460b6ebab.gif",
     "static/media/ContactGif.gif": "/static/media/ContactGif.65feb17b3b2dde135214.gif",
     "static/media/DailyEssential.png": "/static/media/DailyEssential.751b05f0bff4b5be535a.png",
     "static/media/ClarksUSA.PNG": "/static/media/ClarksUSA.ba02e242fb0957dc072d.PNG",
+    "static/media/formal.png": "/static/media/formal.1c689f10a28209fdb07c.png",
     "static/media/Paridhan.PNG": "/static/media/Paridhan.6ec7568136d8428c48c6.PNG",
     "static/media/Expedia.PNG": "/static/media/Expedia.38f6cdc6b0521693bc2c.PNG",
-    "static/media/formal.png": "/static/media/formal.d98bcc68f734adcde33e.png",
-    "static/media/Neha_Phadtare_Resume.pdf": "/static/media/Neha_Phadtare_Resume.0577134f2dbdc686dc78.pdf",
+    "static/media/Neha_Phadtare_Resume.pdf": "/static/media/Neha_Phadtare_Resume.268d8e545876b92d4006.pdf",
     "static/media/react.jpg": "/static/media/react.0a2b9ad0023d46f7980c.jpg",
     "static/media/JavaScript.jpg": "/static/media/JavaScript.66618eb6d34f1fcdfa32.jpg",
     "static/media/html.jpg": "/static/media/html.14e12c2bc34709d4e254.jpg",
@@ -19,12 +19,12 @@
     "static/media/github.jpg": "/static/media/github.f1df4fc0958b42709c6a.jpg",
     "static/media/phoneIcon.jpg": "/static/media/phoneIcon.2406140439e98e26cedc.jpg",
     "index.html": "/index.html",
-    "main.50125c76.css.map": "/static/css/main.50125c76.css.map",
-    "main.789521a0.js.map": "/static/js/main.789521a0.js.map",
+    "main.88747ab9.css.map": "/static/css/main.88747ab9.css.map",
+    "main.b6f5dbcf.js.map": "/static/js/main.b6f5dbcf.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50125c76.css",
-    "static/js/main.789521a0.js"
+    "static/css/main.88747ab9.css",
+    "static/js/main.b6f5dbcf.js"
   ]
 }
