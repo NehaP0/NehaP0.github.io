@@ -13,7 +13,7 @@ const About = () => {
       <div>
         <h3>About me</h3>
         <h2 id="user-detail-name">I am Neha Phadtare</h2>
-        <p id="user-detail-intro">An Associate Software Developer with 2+ years of experience <br/> building scalable web applications using React.js,
+        <p id="user-detail-intro">A Software Engineer with 2.8 years of experience <br/> building scalable web applications using React.js,
 Node.js,<br/> Express.js, and MongoDB. Experienced in developing<br/> responsive user interfaces, integrating REST
 APIs, and delivering<br/> end-to-end features, including a Calendly-like meeting scheduling platform with
 calendar integrations and automated email notifications. Passionate about building clean, maintainable,
